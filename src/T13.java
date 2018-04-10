@@ -15,6 +15,12 @@ public class T13 {
 		}
 	}
 
+	/**
+	 * @Description: 由于时间复杂度要求为O(1)，
+	 * 只能将加一个节点的值复制到要删除的节点，之后再将下一个节点删除
+	 * @author: husb   
+	 * @date: 2018年4月10日 下午3:43:23
+	 */
 	public static void deleteNode(ListNode head, ListNode node) {
 		//若为头节点，则将头节点设为head.next
 		if (node == head) {
